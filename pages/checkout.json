@@ -1,0 +1,49 @@
+{
+    "url": "https://example.com/checkout",
+    "elements": [
+        {
+            "id": "full-name",
+            "name": "收货人姓名",
+            "tag": "input",
+            "type": "text",
+            "role": "textbox",
+            "data-testid": "shipping-name",
+            "placeholder": "Full Name"
+        },
+        {
+            "id": "address",
+            "name": "详细地址",
+            "tag": "input",
+            "type": "text",
+            "role": "textbox",
+            "data-testid": "shipping-address",
+            "placeholder": "Address Line 1"
+        },
+        {
+            "id": "",
+            "name": "提交",
+            "tag": "button",
+            "text": "Place Order",
+            "role": "button",
+            "data-testid": "checkout-submit-btn",
+            "class": "btn-submit-order"
+        },
+        {
+            "id": "",
+            "name": "提交订单",
+            "tag": "button",
+            "text": "Place Order",
+            "role": "button",
+            "data-testid": "place-order-btn",
+            "class": "btn-submit-order"
+        },
+        {
+            "id": "",
+            "name": "订单确认消息",
+            "tag": "div",
+            "role": "alert",
+            "data-testid": "order-success-msg",
+            "text": "Order Placed Successfully"
+        }
+    ]
+}

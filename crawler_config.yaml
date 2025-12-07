@@ -1,0 +1,14 @@
+blacklist:
+  - "删除"
+  - "禁用"
+  - "退出"
+  - "注销"
+  - "Delete"
+  - "Remove"
+  - "Logout"
+  - "Sign out"
+  - "Drop"
+max_depth: 1
+ignored_urls:
+  - "logout"
+  - "signout"

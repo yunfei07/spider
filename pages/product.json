@@ -1,0 +1,50 @@
+{
+    "url": "https://example.com/product/123",
+    "elements": [
+        {
+            "id": "",
+            "name": "商品标题",
+            "tag": "h1",
+            "text": "iPhone 15 Pro",
+            "role": "heading",
+            "data-testid": "product-title",
+            "class": "product-title"
+        },
+        {
+            "id": "",
+            "name": "加入购物车",
+            "tag": "button",
+            "text": "Add to Cart",
+            "role": "button",
+            "data-testid": "add-to-cart-btn",
+            "class": "btn-primary large"
+        },
+        {
+            "id": "",
+            "name": "提交",
+            "tag": "button",
+            "text": "Submit Review",
+            "role": "button",
+            "data-testid": "submit-review-btn",
+            "class": "btn-secondary"
+        },
+        {
+            "id": "",
+            "name": "数量输入框",
+            "tag": "input",
+            "type": "number",
+            "role": "spinbutton",
+            "data-testid": "quantity-input",
+            "placeholder": "1"
+        },
+        {
+            "id": "",
+            "name": "商品价格",
+            "tag": "span",
+            "text": "$999.00",
+            "role": "",
+            "data-testid": "price-tag",
+            "class": "price"
+        }
+    ]
+}
